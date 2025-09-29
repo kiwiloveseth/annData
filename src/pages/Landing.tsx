@@ -51,20 +51,32 @@ const Landing = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button 
-                onClick={() => navigate(user?.role === 'dealer' ? '/marketplace' : '/dashboard')}
+                onClick={() => navigate(
+                  user?.role === 'dealer' ? '/marketplace' : 
+                  user?.role === 'admin' ? '/admin' : 
+                  '/dashboard'
+                )}
                 variant="neon"
                 size="lg"
                 className="w-full sm:w-auto"
               >
-                {user?.role === 'dealer' ? t('landing.cta.marketplace') : t('landing.cta.dashboard')} <ArrowRight className="ml-2 h-5 w-5" />
+                {user?.role === 'dealer' ? t('landing.cta.marketplace') : 
+                 user?.role === 'admin' ? 'Admin Panel' : 
+                 t('landing.cta.dashboard')} <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               <Button 
-                onClick={() => navigate(user?.role === 'farmer' ? '/dashboard' : '/marketplace')}
+                onClick={() => navigate(
+                  user?.role === 'farmer' ? '/dashboard' : 
+                  user?.role === 'admin' ? '/traceability' : 
+                  '/marketplace'
+                )}
                 variant="primary"
                 size="lg"
                 className="w-full sm:w-auto"
               >
-                {user?.role === 'farmer' ? t('landing.cta.dashboard') : t('landing.cta.marketplace')}
+                {user?.role === 'farmer' ? t('landing.cta.dashboard') : 
+                 user?.role === 'admin' ? 'Monitor Platform' : 
+                 t('landing.cta.marketplace')}
               </Button>
             </div>
           </div>
@@ -151,11 +163,17 @@ const Landing = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
-              onClick={() => navigate(user?.role === 'dealer' ? '/marketplace' : '/dashboard')}
+              onClick={() => navigate(
+                user?.role === 'dealer' ? '/marketplace' : 
+                user?.role === 'admin' ? '/admin' : 
+                '/dashboard'
+              )}
               variant="neon"
               size="lg"
             >
-              {user?.role === 'dealer' ? 'Start Trading Now' : 'Start Farming Now'}
+              {user?.role === 'dealer' ? 'Start Trading Now' : 
+               user?.role === 'admin' ? 'Access Admin Panel' : 
+               'Start Farming Now'}
             </Button>
             <Button 
               onClick={() => navigate('/traceability')}
