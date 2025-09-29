@@ -1,0 +1,52 @@
+[
+  {
+    "id": "review1",
+    "listingId": "listing1",
+    "farmerId": "farmer1",
+    "dealerId": "dealer1",
+    "dealerName": "Delhi Distributors",
+    "rating": 5,
+    "comment": "Excellent quality wheat, exactly as described. Fast delivery and great packaging.",
+    "date": "2025-03-20"
+  },
+  {
+    "id": "review2",
+    "listingId": "listing1",
+    "farmerId": "farmer1",
+    "dealerId": "dealer2",
+    "dealerName": "Export House Ltd",
+    "rating": 4,
+    "comment": "Good quality product. Would recommend to others.",
+    "date": "2025-03-18"
+  },
+  {
+    "id": "review3",
+    "listingId": "listing2",
+    "farmerId": "farmer2",
+    "dealerId": "dealer3",
+    "dealerName": "Local Traders",
+    "rating": 5,
+    "comment": "Premium basmati rice with amazing aroma. Very satisfied with the purchase.",
+    "date": "2025-03-15"
+  },
+  {
+    "id": "review4",
+    "listingId": "listing3",
+    "farmerId": "farmer3",
+    "dealerId": "dealer1",
+    "dealerName": "Delhi Distributors",
+    "rating": 4,
+    "comment": "Fresh corn as promised. Good for our retail chain.",
+    "date": "2025-03-12"
+  },
+  {
+    "id": "review5",
+    "listingId": "listing4",
+    "farmerId": "farmer4",
+    "dealerId": "dealer4",
+    "dealerName": "Textile Mills",
+    "rating": 5,
+    "comment": "Export quality cotton. Perfect for our manufacturing needs.",
+    "date": "2025-03-10"
+  }
+]

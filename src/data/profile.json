@@ -1,0 +1,69 @@
+{
+  "name": "Ravi Kumar",
+  "aadhaar": "XXXX-XXXX-1234",
+  "location": "Village Khanna, Punjab",
+  "phone": "+91 98765-43210",
+  "crops": ["Wheat", "Rice", "Corn"],
+  "total_earnings": "₹3,45,000",
+  "monthly_earnings": "₹45,000",
+  "active_listings": 3,
+  "completed_sales": 12,
+  "rating": 4.5,
+  "join_date": "2024-08-01",
+  "transactions": [
+    {
+      "id": "TXN001",
+      "crop": "Organic Wheat",
+      "buyer": "Delhi Distributors",
+      "amount": "₹2,30,000",
+      "quantity": "100 kg",
+      "date": "2025-03-15",
+      "status": "Completed"
+    },
+    {
+      "id": "TXN002",
+      "crop": "Premium Rice",
+      "buyer": "Export House Ltd",
+      "amount": "₹80,000",
+      "quantity": "40 kg",
+      "date": "2025-02-28",
+      "status": "Completed"
+    },
+    {
+      "id": "TXN003",
+      "crop": "Fresh Corn",
+      "buyer": "Local Traders",
+      "amount": "₹35,000",
+      "quantity": "20 kg",
+      "date": "2025-02-15",
+      "status": "Processing"
+    },
+    {
+      "id": "TXN004",
+      "crop": "Cotton",
+      "buyer": "Textile Mills",
+      "amount": "₹1,75,000",
+      "quantity": "30 kg",
+      "date": "2025-01-30",
+      "status": "Completed"
+    },
+    {
+      "id": "TXN005",
+      "crop": "Sugarcane",
+      "buyer": "Sugar Factory",
+      "amount": "₹64,000",
+      "quantity": "200 kg",
+      "date": "2025-01-15",
+      "status": "Completed"
+    }
+  ],
+  "monthly_data": [
+    { "month": "Sep", "earnings": 25000, "msp": 22000 },
+    { "month": "Oct", "earnings": 35000, "msp": 28000 },
+    { "month": "Nov", "earnings": 42000, "msp": 38000 },
+    { "month": "Dec", "earnings": 48000, "msp": 45000 },
+    { "month": "Jan", "earnings": 52000, "msp": 47000 },
+    { "month": "Feb", "earnings": 45000, "msp": 41000 },
+    { "month": "Mar", "earnings": 58000, "msp": 52000 }
+  ]
+}

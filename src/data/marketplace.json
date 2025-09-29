@@ -1,0 +1,80 @@
+[
+  {
+    "id": "crop1",
+    "name": "Organic Wheat",
+    "farmer": "Ravi Kumar",
+    "location": "Punjab",
+    "quantity": "100 kg",
+    "price": "₹2,300",
+    "image": "https://images.pexels.com/photos/326082/pexels-photo-326082.jpeg",
+    "rating": 4.5,
+    "msp": "₹2,200",
+    "quality": "Grade A",
+    "harvest_date": "2025-03-15"
+  },
+  {
+    "id": "crop2",
+    "name": "Basmati Rice",
+    "farmer": "Sunita Devi",
+    "location": "Haryana",
+    "quantity": "50 kg",
+    "price": "₹2,000",
+    "image": "https://images.pexels.com/photos/723198/pexels-photo-723198.jpeg",
+    "rating": 4.2,
+    "msp": "₹1,900",
+    "quality": "Premium",
+    "harvest_date": "2025-02-20"
+  },
+  {
+    "id": "crop3",
+    "name": "Fresh Corn",
+    "farmer": "Amit Sharma",
+    "location": "Uttar Pradesh",
+    "quantity": "75 kg",
+    "price": "₹1,850",
+    "image": "https://images.pexels.com/photos/547263/pexels-photo-547263.jpeg",
+    "rating": 4.0,
+    "msp": "₹1,700",
+    "quality": "Grade A",
+    "harvest_date": "2025-01-10"
+  },
+  {
+    "id": "crop4",
+    "name": "Premium Cotton",
+    "farmer": "Deepak Patel",
+    "location": "Gujarat",
+    "quantity": "30 kg",
+    "price": "₹5,800",
+    "image": "https://images.pexels.com/photos/6129636/pexels-photo-6129636.jpeg",
+    "rating": 4.7,
+    "msp": "₹5,500",
+    "quality": "Export Quality",
+    "harvest_date": "2025-02-28"
+  },
+  {
+    "id": "crop5",
+    "name": "Fresh Sugarcane",
+    "farmer": "Vikram Singh",
+    "location": "Maharashtra",
+    "quantity": "200 kg",
+    "price": "₹320",
+    "image": "https://images.pexels.com/photos/8940834/pexels-photo-8940834.jpeg",
+    "rating": 4.3,
+    "msp": "₹300",
+    "quality": "Grade A",
+    "harvest_date": "2025-03-01"
+  },
+  {
+    "id": "crop6",
+    "name": "Organic Tomatoes",
+    "farmer": "Priya Sharma",
+    "location": "Karnataka",
+    "quantity": "40 kg",
+    "price": "₹60",
+    "image": "https://images.pexels.com/photos/533280/pexels-photo-533280.jpeg",
+    "rating": 4.6,
+    "msp": "₹50",
+    "quality": "Organic",
+    "harvest_date": "2025-03-10"
+  }
+]

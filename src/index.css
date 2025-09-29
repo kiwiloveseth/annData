@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-green text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-primary-green/30;
+  }
+  
+  .btn-neon {
+    @apply bg-transparent border-2 border-neon-lime text-neon-lime px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:bg-neon-lime hover:text-neutral-black hover:shadow-lg hover:shadow-neon-lime/50;
+  }
+  
+  .card-gradient {
+    @apply bg-gradient-to-br from-white to-neutral-grey/10 backdrop-blur-sm border border-neutral-grey/20;
+  }
+  
+  .neon-glow {
+    @apply shadow-lg shadow-neon-lime/30 border border-neon-lime/50;
+  }
+  
+  .hero-gradient {
+    background: linear-gradient(135deg, #0D47A1 0%, #2E7D32 50%, #39FF14 100%);
+  }
+}

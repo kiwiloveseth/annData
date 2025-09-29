@@ -1,0 +1,86 @@
+{
+  "crop1": {
+    "cropId": "crop1",
+    "cropName": "Organic Wheat",
+    "farmer": "Ravi Kumar",
+    "journey": [
+      {
+        "stage": "Farmer",
+        "location": "Village Khanna, Punjab",
+        "date": "2025-01-15",
+        "details": "Seeds planted using organic methods",
+        "completed": true
+      },
+      {
+        "stage": "Harvest",
+        "location": "Village Khanna, Punjab",
+        "date": "2025-03-15",
+        "details": "Crop harvested at optimal maturity",
+        "completed": true
+      },
+      {
+        "stage": "Quality Check",
+        "location": "Punjab Mandi, Ludhiana",
+        "date": "2025-03-16",
+        "details": "Grade A quality certified",
+        "completed": true
+      },
+      {
+        "stage": "Distributor",
+        "location": "New Delhi Hub",
+        "date": "2025-03-18",
+        "details": "Received at distribution center",
+        "completed": true
+      },
+      {
+        "stage": "Retailer",
+        "location": "Metro Cash & Carry, Noida",
+        "date": "2025-03-20",
+        "details": "Available for consumer purchase",
+        "completed": false
+      }
+    ]
+  },
+  "crop2": {
+    "cropId": "crop2",
+    "cropName": "Basmati Rice",
+    "farmer": "Sunita Devi",
+    "journey": [
+      {
+        "stage": "Farmer",
+        "location": "Village Karnal, Haryana",
+        "date": "2024-12-01",
+        "details": "Premium basmati variety planted",
+        "completed": true
+      },
+      {
+        "stage": "Harvest",
+        "location": "Village Karnal, Haryana",
+        "date": "2025-02-20",
+        "details": "Harvested with traditional methods",
+        "completed": true
+      },
+      {
+        "stage": "Processing",
+        "location": "Rice Mill, Karnal",
+        "date": "2025-02-22",
+        "details": "Cleaned and graded",
+        "completed": true
+      },
+      {
+        "stage": "Quality Check",
+        "location": "Export House, Delhi",
+        "date": "2025-02-25",
+        "details": "Export quality approved",
+        "completed": true
+      },
+      {
+        "stage": "Distributor",
+        "location": "Wholesale Market, Azadpur",
+        "date": "2025-02-27",
+        "details": "Ready for distribution",
+        "completed": false
+      }
+    ]
+  }
+}
