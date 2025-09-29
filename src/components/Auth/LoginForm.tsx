@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { User, Mail, Lock, Wallet, Users } from 'lucide-react';
+import { User, Mail, Lock, Wallet, Users, Shield } from 'lucide-react';
 import Button from '../Button';
 import Card from '../Card';
 import { useAuth } from '../../contexts/AuthContext';
@@ -18,6 +18,12 @@ const DUMMY_USERS = {
     password: 'dealer123',
     name: 'Amit Distributors',
     role: 'dealer' as const
+  },
+  admin: {
+    email: 'admin@AnnData.com',
+    password: 'admin123',
+    name: 'AnnData Admin',
+    role: 'admin' as const
   }
 };
 
@@ -33,7 +39,7 @@ const LoginForm: React.FC<LoginFormProps> = ({ onToggleMode, isSignUp }) => {
     name: '',
     email: '',
     password: '',
-    role: 'farmer' as 'farmer' | 'dealer'
+    role: 'farmer' as 'farmer' | 'dealer' | 'admin'
   });
   const [walletConnected, setWalletConnected] = useState(false);
   const [walletAddress, setWalletAddress] = useState('');
@@ -76,7 +82,7 @@ const LoginForm: React.FC<LoginFormProps> = ({ onToggleMode, isSignUp }) => {
     }
   };
 
-  const handleDemoLogin = (role: 'farmer' | 'dealer') => {
+  const handleDemoLogin = (role: 'farmer' | 'dealer' | 'admin') => {
     const dummyUser = DUMMY_USERS[role];
     setFormData({
       ...formData,
@@ -142,6 +148,16 @@ const LoginForm: React.FC<LoginFormProps> = ({ onToggleMode, isSignUp }) => {
                 <Users className="h-4 w-4 mr-1" />
                 Login as Dealer
               </Button>
+              <Button
+                type="button"
+                variant="secondary"
+                size="sm"
+                onClick={() => handleDemoLogin('admin')}
+                className="flex-1"
+              >
+                <Shield className="h-4 w-4 mr-1" />
+                Login as Admin
+              </Button>
             </div>
           </div>
         )}
@@ -161,11 +177,12 @@ const LoginForm: React.FC<LoginFormProps> = ({ onToggleMode, isSignUp }) => {
             </label>
             <select
               value={formData.role}
-              onChange={(e) => setFormData({ ...formData, role: e.target.value as 'farmer' | 'dealer' })}
+              onChange={(e) => setFormData({ ...formData, role: e.target.value as 'farmer' | 'dealer' | 'admin' })}
               className="w-full px-4 py-3 border border-neutral-grey/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-neon-lime focus:border-transparent"
             >
               <option value="farmer">{t('auth.farmer')}</option>
               <option value="dealer">{t('auth.dealer')}</option>
+              <option value="admin">Admin</option>
             </select>
           </div>
 

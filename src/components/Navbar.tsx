@@ -15,6 +15,14 @@ const Navbar = () => {
   const getNavItems = () => {
     if (!isAuthenticated) return [{ name: t('nav.home'), path: '/' }];
     
+    if (user?.role === 'admin') {
+      return [
+        { name: t('nav.home'), path: '/' },
+        { name: 'Admin Dashboard', path: '/admin' },
+        { name: t('nav.traceability'), path: '/traceability' },
+      ];
+    }
+    
     const baseItems = [
       { name: t('nav.home'), path: '/' },
       { name: t('nav.dashboard'), path: '/dashboard' },

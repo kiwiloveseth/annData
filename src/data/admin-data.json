@@ -1,0 +1,181 @@
+{
+  "stats": {
+    "totalUsers": 2847,
+    "pendingVerifications": 23,
+    "activeListings": 1234,
+    "totalVolume": "12.5Cr"
+  },
+  "pendingVerifications": [
+    {
+      "id": "VER001",
+      "name": "Rajesh Kumar",
+      "role": "Farmer",
+      "location": "Punjab",
+      "documents": "Complete",
+      "status": "Pending",
+      "date": "2025-01-15",
+      "aadhaar": "XXXX-XXXX-5678",
+      "phone": "+91 98765-43210",
+      "farmSize": "5 acres",
+      "crops": ["Wheat", "Rice"]
+    },
+    {
+      "id": "VER002",
+      "name": "Agro Distributors Ltd",
+      "role": "Dealer",
+      "location": "Delhi",
+      "documents": "Incomplete",
+      "status": "Review",
+      "date": "2025-01-14",
+      "businessId": "DL-2024-002",
+      "phone": "+91 98765-12345",
+      "specialization": ["Grains", "Export"]
+    },
+    {
+      "id": "VER003",
+      "name": "Sunita Devi",
+      "role": "Farmer",
+      "location": "Haryana",
+      "documents": "Complete",
+      "status": "Pending",
+      "date": "2025-01-13",
+      "aadhaar": "XXXX-XXXX-9012",
+      "phone": "+91 98765-54321",
+      "farmSize": "3 acres",
+      "crops": ["Rice", "Sugarcane"]
+    }
+  ],
+  "cropRequests": [
+    {
+      "id": "CR001",
+      "farmer": "Ravi Kumar",
+      "farmerId": "farmer1",
+      "crop": "Organic Quinoa",
+      "quantity": "50kg",
+      "price": "₹180/kg",
+      "msp": "₹150/kg",
+      "status": "Pending",
+      "description": "Premium organic quinoa grown without pesticides",
+      "harvestDate": "2025-01-20",
+      "location": "Punjab"
+    },
+    {
+      "id": "CR002",
+      "farmer": "Amit Sharma",
+      "farmerId": "farmer3",
+      "crop": "Premium Basmati",
+      "quantity": "100kg",
+      "price": "₹220/kg",
+      "msp": "₹200/kg",
+      "status": "Approved",
+      "description": "Long grain basmati rice with excellent aroma",
+      "harvestDate": "2025-01-18",
+      "location": "Uttar Pradesh"
+    },
+    {
+      "id": "CR003",
+      "farmer": "Deepak Patel",
+      "farmerId": "farmer4",
+      "crop": "Organic Cotton",
+      "quantity": "75kg",
+      "price": "₹5900/kg",
+      "msp": "₹5500/kg",
+      "status": "Review",
+      "description": "High-quality organic cotton suitable for export",
+      "harvestDate": "2025-01-15",
+      "location": "Gujarat"
+    }
+  ],
+  "mspData": [
+    {
+      "crop": "Wheat",
+      "currentMSP": 2200,
+      "proposedMSP": 2300,
+      "lastUpdated": "2025-01-01",
+      "status": "Active",
+      "governmentRate": 2200,
+      "marketRate": 2350
+    },
+    {
+      "crop": "Rice",
+      "currentMSP": 1900,
+      "proposedMSP": 2000,
+      "lastUpdated": "2024-12-15",
+      "status": "Pending Update",
+      "governmentRate": 1950,
+      "marketRate": 2100
+    },
+    {
+      "crop": "Cotton",
+      "currentMSP": 5500,
+      "proposedMSP": 5800,
+      "lastUpdated": "2025-01-10",
+      "status": "Active",
+      "governmentRate": 5500,
+      "marketRate": 5900
+    },
+    {
+      "crop": "Sugarcane",
+      "currentMSP": 300,
+      "proposedMSP": 320,
+      "lastUpdated": "2024-12-20",
+      "status": "Review",
+      "governmentRate": 310,
+      "marketRate": 330
+    }
+  ],
+  "disputes": [
+    {
+      "id": "DIS001",
+      "farmer": "Ravi Kumar",
+      "farmerId": "farmer1",
+      "dealer": "Delhi Distributors",
+      "dealerId": "dealer1",
+      "issue": "Quality Dispute",
+      "description": "Dealer claims crop quality doesn't match listing description",
+      "amount": "₹50,000",
+      "status": "Open",
+      "date": "2025-01-14",
+      "priority": "High"
+    },
+    {
+      "id": "DIS002",
+      "farmer": "Sunita Devi",
+      "farmerId": "farmer2",
+      "dealer": "Export House Ltd",
+      "dealerId": "dealer2",
+      "issue": "Payment Delay",
+      "description": "Payment not received within agreed timeframe",
+      "amount": "₹80,000",
+      "status": "Resolved",
+      "date": "2025-01-12",
+      "priority": "Medium",
+      "resolution": "Payment processed with late fee compensation"
+    }
+  ],
+  "systemAlerts": [
+    {
+      "id": "ALT001",
+      "type": "Security",
+      "message": "Unusual login activity detected from IP 192.168.1.100",
+      "severity": "High",
+      "timestamp": "2025-01-15T10:30:00Z",
+      "status": "Active"
+    },
+    {
+      "id": "ALT002",
+      "type": "System",
+      "message": "Database backup completed successfully",
+      "severity": "Info",
+      "timestamp": "2025-01-15T02:00:00Z",
+      "status": "Resolved"
+    }
+  ],
+  "monthlyData": [
+    { "month": "Sep", "users": 2100, "transactions": 450, "volume": 8.5, "disputes": 12 },
+    { "month": "Oct", "users": 2300, "transactions": 520, "volume": 9.2, "disputes": 8 },
+    { "month": "Nov", "users": 2500, "transactions": 680, "volume": 10.8, "disputes": 15 },
+    { "month": "Dec", "users": 2650, "transactions": 750, "volume": 11.5, "disputes": 6 },
+    { "month": "Jan", "users": 2847, "transactions": 890, "volume": 12.5, "disputes": 3 }
+  ]
+}

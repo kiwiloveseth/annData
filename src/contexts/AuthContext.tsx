@@ -4,7 +4,7 @@ export interface User {
   id: string;
   name: string;
   email: string;
-  role: 'farmer' | 'dealer';
+  role: 'farmer' | 'dealer' | 'admin';
   walletAddress?: string;
 }
 

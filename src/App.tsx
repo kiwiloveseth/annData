@@ -9,6 +9,7 @@ import LoginForm from './components/Auth/LoginForm';
 import Landing from './pages/Landing';
 import FarmerDashboard from './pages/FarmerDashboard';
 import DealerMarketplace from './pages/DealerMarketplace';
+import AdminDashboard from './pages/AdminDashboard';
 import Traceability from './pages/Traceability';
 import Profile from './pages/Profile';
 
@@ -28,12 +29,22 @@ const AppContent: React.FC = () => {
           <Route path="/" element={<Landing />} />
           <Route 
             path="/dashboard" 
-            element={user?.role === 'farmer' ? <FarmerDashboard /> : <DealerMarketplace />} 
+            element={
+              user?.role === 'farmer' ? <FarmerDashboard /> : 
+              user?.role === 'dealer' ? <DealerMarketplace /> : 
+              user?.role === 'admin' ? <AdminDashboard /> : 
+              <FarmerDashboard />
+            } 
           />
           <Route 
             path="/marketplace" 
-            element={user?.role === 'dealer' ? <DealerMarketplace /> : <FarmerDashboard />} 
+            element={
+              user?.role === 'dealer' ? <DealerMarketplace /> : 
+              user?.role === 'admin' ? <AdminDashboard /> : 
+              <FarmerDashboard />
+            } 
           />
+          <Route path="/admin" element={user?.role === 'admin' ? <AdminDashboard /> : <Landing />} />
           <Route path="/traceability" element={<Traceability />} />
           <Route path="/profile" element={<Profile />} />
         </Routes>
